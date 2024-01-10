@@ -1,0 +1,75 @@
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70%;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 1rem;
+}
+.item{
+    width: 20%;
+    padding:0.5rem;
+}
+.item-img{
+width: 100%;
+border-radius: 15px;
+}
+.item-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: dodgerblue;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.item-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: dodgerblue;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.item-description{
+    margin-top: 0.25rem;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.btn-booking{
+    display: block;
+    padding: 0.25rem 1rem;
+    border: none;
+    border-radius: 15px;
+    margin: 1rem auto;
+    color: white;
+    width: fit-content;
+    background-color: dodgerblue;
+    text-decoration: none;
+
+} 
+/* border border-solid border-gray-600 rounded-xl mx-auto mt-4 w-fit bg-blue-600 text-white font-nomal */
